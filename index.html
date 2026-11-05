@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Açaí Grajaú</title>
+  <!-- Tailwind pelo CDN: já está ligado. Não precisa de nenhum arquivo .css -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+  <!-- PARTE 1 · Cabeçalho
+       Documentação: Flex, Justify content, Align items, Gap, Padding, Background color -->
+  <header>
+    <nav>
+      <a href="#">Açaí Grajaú</a>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PARTE 2 · Banner
+         Documentação: Font size, Font weight, Text align, Padding, Border radius, Hover -->
+    <section id="inicio">
+      <h1>O açaí mais cremoso da cidade</h1>
+      <p>Tigelas, copos e complementos fresquinhos, todo dia.</p>
+      <a href="#cardapio">Ver o cardápio</a>
+    </section>
+
+    <!-- PARTE 3 · Cardápio
+         Documentação: Grid template columns, Responsive design, Box shadow, Overflow, Transition -->
+    <section id="cardapio">
+      <h2>Cardápio</h2>
+
+      <article>
+        <img src="img/tigela.svg" alt="Tigela de açaí">
+        <h3>Tigela tradicional</h3>
+        <p>R$ 15,00</p>
+        <a href="#">Pedir</a>
+      </article>
+
+      <article>
+        <img src="img/copo.svg" alt="Copo de açaí">
+        <h3>Copo 500 ml</h3>
+        <p>R$ 12,00</p>
+        <a href="#">Pedir</a>
+      </article>
+
+      <article>
+        <img src="img/fruta.svg" alt="Frutas para complemento">
+        <h3>Complementos</h3>
+        <p>R$ 3,00</p>
+        <a href="#">Pedir</a>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- PARTE 4 · Rodapé
+       Documentação: Background color, Text color, Padding, Text align -->
+  <footer id="contato">
+    <p>Praça central, Grajaú (MA) · (99) 99999-0000</p>
+    <p>© 2026 Açaí Grajaú</p>
+  </footer>
+
+</body>
+</html>
